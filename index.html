@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Notes</title>
+    <link rel="icon" href="images/notes.png" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="preloader"></div>
+
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener ("load", function(){
+          loader.style.display = "none";
+      })
+    </script>
+
+
+    <div class="container">
+        <h1><img src="images/notes.png">Notes</h1>
+        <button class="btn"><img src="images/edit.png">Create Notes</button>
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img src="images/delete.png">
+            </p>    -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" hidden></iframe>
+    
+    
+</body>
+</html>
